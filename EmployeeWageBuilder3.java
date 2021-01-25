@@ -39,5 +39,5 @@ public class EmployeeWageBuilder3 {
 		EmployeeWageBuilder3 employee = new EmployeeWageBuilder3();
 		employee.EmployeeWage();
 
-		}
+	}
 }
