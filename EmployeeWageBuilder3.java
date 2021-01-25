@@ -1,14 +1,14 @@
 
 public class EmployeeWageBuilder3 {
 
+	int isFullTime=1;
+
 	EmployeeWageBuilder3() {
 		System.out.println("Welcome to Employee Wage Computation");
 
 		}
 
 	void EmployeeWage(){
-
-		int isFullTime=1;
 
 		double empCheck= Math.floor(Math.random() * 10) % 2;
 
