@@ -2,6 +2,8 @@
 public class EmployeeWageBuilder3 {
 
 	int isFullTime=1;
+	int WagePerHour=20;
+	int NoOfHours;
 
 	EmployeeWageBuilder3() {
 		System.out.println("Welcome to Employee Wage Computation");
@@ -12,11 +14,17 @@ public class EmployeeWageBuilder3 {
 
 		double empCheck= Math.floor(Math.random() * 10) % 2;
 
-		if(empCheck == isFullTime)
+		if(empCheck == isFullTime){
 			System.out.println("Employee is Present");
-		else
+			NoOfHours=8;
+			}
+		else{
 			System.out.println("Employee is absent");
+			NoOfHours=0;
+			}
 
+		int Payment= WagePerHour * NoOfHours;
+		System.out.println("Payment is "+Payment);
 		}
 
 	public static void main(String args[]) {
