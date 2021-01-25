@@ -5,6 +5,7 @@ public class EmployeeWageBuilder3 {
 	int isPartTime=2;
 	int WagePerHour=20;
 	int NoOfHours;
+	int Month=20;	//Here One Month as 20 Days
 
 	EmployeeWageBuilder3() {
 		System.out.println("Welcome to Employee Wage Computation");
@@ -30,7 +31,7 @@ public class EmployeeWageBuilder3 {
 			break;
 			}
 
-	int Payment= WagePerHour * NoOfHours;
+	int Payment= WagePerHour * NoOfHours * Month;
 		System.out.println("Payment is "+Payment);
 		}
 
